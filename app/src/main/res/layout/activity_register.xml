@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.AndroidTest.activity.RegisterActivity"
+    android:background="@drawable/register_background">
+
+    <EditText
+        android:id="@+id/et_register_account"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="500dp"
+        android:hint="用户名"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="420dp"
+        android:hint="密码"
+        android:textColorHint="#ffffff"/>
+
+    <Button
+        android:id="@+id/bt_register_save"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/shape_button"
+        android:text="注册"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bt_register_cancel"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/shape_button"
+        android:text="取消"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
